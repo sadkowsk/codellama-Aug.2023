@@ -45,7 +45,7 @@ For VS Code:
 * Install Continue extension
 * etc.
 
-## 4. Related Links
+## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
 * GitHub > [facebook research / llama2](https://github.com/facebookresearch/llama)
 * Hugging Face > [Meta / Code Llama](https://huggingface.co/codellama)
