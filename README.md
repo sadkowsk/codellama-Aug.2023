@@ -30,7 +30,7 @@ Can an open, general LLM be specialized for code while adding new abilities like
 
 ### Results
 * 
-### Critical Analysis
+### Critique
 * What was overlooked by the authors? What could have been developed further? Were there any errors? Have others disputed the findings?
 
 ## Demonstration
