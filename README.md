@@ -11,13 +11,13 @@ What to look for in this presentation (discussion Q&A)
 * Q2: What legal/ethical risks remain with releasing code LLMs?
 
 ## 1. Overview
-### 1-a. Context
+### Context
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
-### 1-b. Question
+### Question
 Can an open, general LLM be specialized for code while adding new abilities like long context and infilling?
 
-### 1-c. Approach
+### Approach
 * Fine-tune Llama 2 foundation model on code data
 * Add infilling objective for 7B and 13B models
 * Long context fine-tuning to handle 100k tokens
@@ -27,13 +27,13 @@ Can an open, general LLM be specialized for code while adding new abilities like
 "Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol." (Code Llama, p.3)
     <img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
 
-### 1-d. Results
+### Results
 * Code Llama exceeds Llama 2 on MBPP/HumanEval/MultiPL-E
 * Infilling provides new generation mode with small cost
 * Models leverage contexts up to 100k tokens
 * Instruction tuning improves safety/social behavior
 
-### 1-e. Critique
+### Critique
 * Limited analysis of tradeoffs between generality and code specialization
 * More careful tuning may improve infilling performance
 * Safety evaluations are narrow and require further auditing
