@@ -15,7 +15,7 @@ What to look for in this presentation (discussion Q&A)
 ### Context
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
-### Research Question
+### Question
 Can an open, general LLM be specialized for code while adding new abilities like long context and infilling?
 
 ### Approach
