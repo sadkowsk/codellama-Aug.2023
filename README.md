@@ -45,13 +45,10 @@ Can an open, general LLM be specialized for code while adding new abilities like
 
 ## 4. Related Links
 ### 4-a. Meta Publications
-* Llama 2 (18 Jul. 2023): https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-* Code Llama (24 Aug. 2023): https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/
-### 4-b. GitHub Repositories
-* Llama: https://github.com/facebookresearch/llama
-* Code Llama: https://github.com/facebookresearch/codellama
-### 4-c. Hugging Face Blogs
-* Llama 2: https://huggingface.co/blog/llama2
-* Code Llama: https://huggingface.co/blog/codellama
-### 4-e. Hugging Face Models
-* Code Llama: https://huggingface.co/codellama
+* Meta AI > ["Code Llama: Open Foundation Models for Code"] (https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
+* Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"] (https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
+* GitHub > Llama Repository: https://github.com/facebookresearch/llama
+* GitHub > Code Llama Repository: https://github.com/facebookresearch/codellama
+* Hugging Face > Llama 2 Blog: https://huggingface.co/blog/llama2
+* Hugging Face > Code Llama Blog: https://huggingface.co/blog/codellama
+* Hugging Face > Code Llama: https://huggingface.co/codellama
