@@ -42,9 +42,11 @@ Can an open, general LLM be specialized for code while adding new abilities like
 ## 2. Demonstration
 
 ## 3. Quick Start
+For VS Code:
+* Install Continue extension
+* etc.
 
 ## 4. Related Links
-### 4-a. Meta Publications
 * GitHub > [Code Llama](https://github.com/facebookresearch/codellama)
 * GitHub > [Llama 2](https://github.com/facebookresearch/llama)
 * Hugging Face > [Code Llama](https://huggingface.co/codellama)
