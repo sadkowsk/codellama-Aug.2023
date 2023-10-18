@@ -1,10 +1,9 @@
 # code-llama
+Purpose of this ReadMe: review the 24 Aug. 2023 publication
 
         B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 
 Impact of Code Llama since release: media coverage, downloads, etc.
-
-Purpose of this ReadMe: review the 24 Aug. 2023 publication
 
 What to look for in this presentation (discussion Q&A)
 * Q1: What are the key differences between the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
