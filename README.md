@@ -48,7 +48,7 @@ For VS Code:
 ## 4. Related Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
 * GitHub > [facebook research / llama2](https://github.com/facebookresearch/llama)
-* Hugging Face > [Code Llama Official](https://huggingface.co/codellama)
-* Hugging Face > [Llama 2 Official](https://huggingface.co/meta-llama)
+* Hugging Face > [Meta / Code Llama](https://huggingface.co/codellama)
+* Hugging Face > [Meta / Llama 2](https://huggingface.co/meta-llama)
 * Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
