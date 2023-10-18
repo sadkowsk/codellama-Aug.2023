@@ -1,17 +1,16 @@
 # code-llama
+
+        B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
+
 Impact of Code Llama since release: media coverage, downloads, etc.
 
-Purpose of this ReadMe: review of the 24 Aug. 2023 publication
-
-Full article citation: 
-
-## 1. Overview
-tl;dr: 
+Purpose of this ReadMe: review the 24 Aug. 2023 publication
 
 What to look for in this presentation (discussion Q&A)
-1. Q1
-2. Q2
+* Q1: What are the key differences between the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
+* Q2: What legal/ethical risks remain with releasing code LLMs?
 
+## 1. Overview
 ### 1-a. Context
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
@@ -29,10 +28,16 @@ Can an open, general LLM be specialized for code while adding new abilities like
     <img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
 
 ### 1-d. Results
-* 
+* Code Llama exceeds Llama 2 on MBPP/HumanEval/MultiPL-E
+* Infilling provides new generation mode with small cost
+* Models leverage contexts up to 100k tokens
+* Instruction tuning improves safety/social behavior
 
 ### 1-e. Critique
-* What was overlooked by the authors? What could have been developed further? Were there any errors? Have others disputed the findings?
+* Limited analysis of tradeoffs between generality and code specialization
+* More careful tuning may improve infilling performance
+* Safety evaluations are narrow and require further auditing
+* Broader assessment of long context benefits needed
 
 ## 2. Demonstration
 
