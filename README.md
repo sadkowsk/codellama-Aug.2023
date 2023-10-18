@@ -45,8 +45,8 @@ Can an open, general LLM be specialized for code while adding new abilities like
 
 ## 4. Related Links
 ### 4-a. Meta Publications
-* Meta AI > ["Code Llama: Open Foundation Models for Code"] (https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
-* Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"] (https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
+* Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
+* Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 * GitHub > Llama Repository: https://github.com/facebookresearch/llama
 * GitHub > Code Llama Repository: https://github.com/facebookresearch/codellama
 * Hugging Face > Llama 2 Blog: https://huggingface.co/blog/llama2
