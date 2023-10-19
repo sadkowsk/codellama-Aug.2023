@@ -1,4 +1,4 @@
-# "Code Llama: Open Foundation models for Code"
+# "Code Llama: Open Foundation Models for Code"
 **Cite the article:**
 
     B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
