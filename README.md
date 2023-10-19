@@ -1,11 +1,9 @@
 # "Code Llama: Open Foundation models for Code"
+**Cite the article:**
+
     B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 
-Purpose of this ReadMe: review the 24 Aug. 2023 publication
-
-Impact of Code Llama since release: media coverage, downloads, etc.
-
-Discussion Q&A:
+**Focus Q&A:**
 1. What distinguishes each of the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
 2. What legal/ethical risks remain with releasing code LLMs?
 
@@ -55,3 +53,4 @@ Can an open, general LLM be specialized for code while adding new abilities like
 * Hugging Face > [Meta / Llama 2](https://huggingface.co/meta-llama)
 * Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
+* ADD LINKS: Code Llama's impact: media coverage, downloads, etc.
