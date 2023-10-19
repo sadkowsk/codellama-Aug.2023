@@ -43,8 +43,11 @@ Can an open, general LLM be specialized for code while adding new abilities like
 
 ## 3. Code Llama Quick Start
 For VS Code:
-* Install Continue extension
-* etc.
+* Install Continue VS Code Extension
+* Locate llamacpp_mock_api.py file; move to codellama folder
+* pip install flask
+* Run llamacpp_mock_api.py in codellama folder
+* Etc.
 
 ## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
