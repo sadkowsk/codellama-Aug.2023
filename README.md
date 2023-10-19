@@ -10,7 +10,7 @@ Discussion Q&A:
 2. What legal/ethical risks remain with releasing code LLMs?
 
 ## 1. Article Overview
-### Context
+### Problem
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
 ### Question
