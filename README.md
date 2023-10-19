@@ -42,12 +42,11 @@ Can an open, general LLM be specialized for code while adding new abilities like
 [Demonstration.ipynb](Demonstration.ipynb)
 
 ## 3. Code Llama Quick Start
-For VS Code:
-* Install Continue VS Code Extension
-* Locate llamacpp_mock_api.py file; move to codellama folder
-* pip install flask
-* Run llamacpp_mock_api.py in codellama folder
-* Etc.
+1. Install Continue VS Code Extension
+2. Locate llamacpp_mock_api.py file; move to codellama folder
+3. pip install flask
+4. Run llamacpp_mock_api.py in codellama folder
+5. Etc.
 
 ## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
