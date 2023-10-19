@@ -39,7 +39,7 @@ Can an open, general LLM be specialized for code while adding new abilities like
 * Broader assessment of long context benefits needed
 
 ## 2. Code Llama Demonstration
-See "Demonstration.ipynb" above
+[Demonstration.ipynb](Demonstration.ipynb)
 
 ## 3. Code Llama Quick Start
 For VS Code:
