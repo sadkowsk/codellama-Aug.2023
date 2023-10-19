@@ -1,5 +1,5 @@
 # "Code Llama: Open Foundation models for Code"
-        B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
+    B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 
 Purpose of this ReadMe: review the 24 Aug. 2023 publication
 
