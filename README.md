@@ -5,11 +5,11 @@ Purpose of this ReadMe: review the 24 Aug. 2023 publication
 
 Impact of Code Llama since release: media coverage, downloads, etc.
 
-What to look for in this presentation (discussion Q&A)
-* Q1: What are the key differences between the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
-* Q2: What legal/ethical risks remain with releasing code LLMs?
+Discussion Q&A:
+1. What distinguishes each of the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
+2. What legal/ethical risks remain with releasing code LLMs?
 
-## 1. Overview
+## 1. Article Overview
 ### Context
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
@@ -38,9 +38,9 @@ Can an open, general LLM be specialized for code while adding new abilities like
 * Safety evaluations are narrow and require further auditing
 * Broader assessment of long context benefits needed
 
-## 2. Demonstration
+## 2. Code Llama Demonstration
 
-## 3. Quick Start
+## 3. Code Llama Quick Start
 For VS Code:
 * Install Continue extension
 * etc.
