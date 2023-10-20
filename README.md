@@ -32,15 +32,17 @@ Can an open, general LLM be specialized for code while adding new abilities like
 ```
 ### Results
 * Code Llama exceeds Llama 2 on MBPP/HumanEval/MultiPL-E
-* Infilling provides new generation mode with small cost
-* Models leverage contexts up to 100k tokens
-* Instruction tuning improves safety/social behavior
 
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
 > _"Table 2: Code Llama pass@ scores on HumanEval and MBPP. The pass@1 scores of our models are computed with greedy decoding. The pass@10 and pass@100 scores are computed with nucleus sampling with p=0.95 and temperature 0.8 following our findings from Figure 6. Models are evaluated in zero-shot on Human Eval and 3-shot on MBPP. The instruct models are trained to be safe and aligned from the base Code Llama models. Results for other models as provided by Li et al. (2023) (code-cushman-001, StarCoder), OpenAI (2023) (GPT-3.5, GPT-4), and Chowdhery et al. (2022); Anil et al. (2023) (PaLM)."_[^1]
 
 <img width="591" alt="Table 9" src="https://github.com/sadkowsk/code-llama/assets/143565317/ea05d15d-a0c9-466e-ab8d-a3eb0365d92e">
+
+* Infilling provides new generation mode with small cost
+* Models leverage contexts up to 100k tokens
+
+* Instruction tuning improves safety/social behavior
 
 > _"Table 9: Evaluations on safety datasets for both pretrained (base) models and aligned (instruct) models. For TruthfulQA, we present the percentage of generations that are both truthful and informative (the higher, the better). For ToxiGen, we present the percentage of toxic generations (the smaller, the better). For BOLD, we present the average sentiment scores across demographic groups. A score closer to 0 indicates a neutral sentiment, while a positive (negative) score indicates a positive (negative) sentiment towards the population mentioned in the prompt."_[^1]
 
