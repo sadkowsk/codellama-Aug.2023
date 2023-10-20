@@ -24,6 +24,8 @@ Can an open, general LLM be specialized for code while adding new abilities like
 "Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol." (Code Llama, p.3)
     <img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
 
+### Architecture
+
 ### Results
 * Code Llama exceeds Llama 2 on MBPP/HumanEval/MultiPL-E
 * Infilling provides new generation mode with small cost
