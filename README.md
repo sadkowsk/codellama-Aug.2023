@@ -42,8 +42,8 @@ Can an open, general LLM be specialized for code while adding new abilities like
 [Demonstration.ipynb](Demonstration.ipynb)
 
 ## 3. Code Llama Quick Start
-For Mac users running VS Code:
-1. Download Ollama: https://github.com/jmorganca/ollama
+For Mac users trying to run Code Llama locally on VS Code:
+1. Download Ollama: [jmorganca / ollama](https://github.com/jmorganca/ollama)
 2. Run through LangChain...?
 3. Begin Jupyter Notebook file with command:
 ```
