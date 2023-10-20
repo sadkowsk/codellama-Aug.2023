@@ -3,9 +3,11 @@
 ```
 B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 ```
-**Focus Q&A:**
-1. ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?
-2. After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?
+
+> [!NOTE]
+> **Focus Q&A:**
+> 1. ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?
+> 2. After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?
 
 ## 1. Article Overview
 ### Problem
@@ -21,8 +23,12 @@ Can an open, general LLM be specialized for code while adding new abilities like
 * Release Code Llama base and Python/Instruct variants
 * (What's the "most important part of the paper?")
 
-"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol." (Code Llama, p.3)
-    <img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
+<img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
+
+> "Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."[^1]
+
+
+[^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 
 ### Architecture
 ```
