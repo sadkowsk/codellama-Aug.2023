@@ -42,12 +42,17 @@ Can an open, general LLM be specialized for code while adding new abilities like
 [Demonstration.ipynb](Demonstration.ipynb)
 
 ## 3. Code Llama Quick Start
-1. Install Continue VS Code Extension
-2. Locate llamacpp_mock_api.py file; move to codellama folder
-3. pip install flask
-4. Run llamacpp_mock_api.py in codellama folder
-5. Etc.
-
+For Mac users running VS Code:
+1. Download Ollama: https://github.com/jmorganca/ollama
+2. Run through LangChain...?
+3. Begin Jupyter Notebook file with command:
+```
+from langchain.llms import Ollama
+from langchain.callbacks.manager import CallbackManager
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler                                  
+llm = Ollama(model="codellama", 
+             callback_manager = CallbackManager([StreamingStdOutCallbackHandler()]))
+```
 ## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
 * GitHub > [facebook research / llama2](https://github.com/facebookresearch/llama)
