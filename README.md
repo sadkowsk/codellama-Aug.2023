@@ -19,6 +19,14 @@ Code generation is a common application of large language models (LLMs), and cod
 ### Question
 Can an open, general LLM be specialized for code while adding new abilities like long context and infilling?
 
+### Context
+Fine-tuned on the Llama 2 foundation LLM, in Aug. 2023 Meta AI released three Code Llama variant models that specialize in code:
+* Code Llama: general-purpose code
+* Code Llama-Python: Python code
+* Code Llama-Instruct: fine-tuned for human instructions
+
+Code Llama specializes the general foundation Llama 2 model for code tasks by pretraining on code data. The variants further improve Python specificity and safety/helpfulness.
+
 ### Approach
 * Fine-tune Llama 2 foundation model on code data
 * Add infilling objective for 7B and 13B models
