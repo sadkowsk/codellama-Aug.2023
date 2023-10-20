@@ -1,8 +1,8 @@
 # "Code Llama: Open Foundation Models for Code"
 **Cite the article:**
-
-    B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
-
+```
+B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
+```
 **Focus Q&A:**
 1. What distinguishes each of the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
 2. What legal/ethical risks remain with releasing code LLMs?
@@ -45,7 +45,7 @@ Can an open, general LLM be specialized for code while adding new abilities like
 For Mac users trying to run Code Llama locally on VS Code:
 1. Download Ollama: [jmorganca / ollama](https://github.com/jmorganca/ollama)
 2. Run through LangChain...?
-3. Begin Jupyter Notebook file with command:
+3. Begin Jupyter Notebook file with code block:
 ```
 from langchain.llms import Ollama
 from langchain.callbacks.manager import CallbackManager
@@ -53,6 +53,11 @@ from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 llm = Ollama(model="codellama", 
              callback_manager = CallbackManager([StreamingStdOutCallbackHandler()]))
 ```
+4. In Terminal, input:
+```
+ollama run codellama
+```
+5. Happy coding!
 ## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
 * GitHub > [facebook research / llama2](https://github.com/facebookresearch/llama)
