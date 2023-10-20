@@ -4,8 +4,8 @@
 B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
 ```
 **Focus Q&A:**
-1. What distinguishes each of the three Code Llama models? (Code Llama; Code Llama-Python; Code Llama-Instruct)
-2. What legal/ethical risks remain with releasing code LLMs?
+1. ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?
+2. After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?
 
 ## 1. Article Overview
 ### Problem
