@@ -5,8 +5,9 @@ B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, 
 ```
 
 > [!NOTE]
-> * **Q&A.** _ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?_
-> * **Q&A.** _After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?_
+> **Focus Q&A**
+> 1. _ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?_
+> 2. _After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?_
 
 ## 1. Article Overview
 ### Problem
