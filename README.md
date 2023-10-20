@@ -20,7 +20,6 @@ Can an open, general LLM be specialized for code while adding new abilities like
 * Add infilling objective for 7B and 13B models
 * Long context fine-tuning to handle 100k tokens
 * Release Code Llama base and Python/Instruct variants
-* (What's the "most important part of the paper?")
 
 <img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
 
