@@ -10,6 +10,9 @@ B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, 
 > 2. _After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?_
 
 ## 1. Article Overview
+
+_tl;dr: The paper demonstrates methods to adapt a generalist LLM to specialized domains like code, handling new modalities like infilling, and improving social behavior._
+
 ### Problem
 Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
 
