@@ -1,4 +1,4 @@
-# "Code Llama: Open Foundation Models for Code"[^1]
+# "Code Llama: Open Foundation Models for Code"
 **Cite the article:**
 ```
 B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
@@ -25,7 +25,7 @@ Can an open, general LLM be specialized for code while adding new abilities like
 
 <img width="1090" alt="Screenshot 2023-10-18 at 12 42 15" src="https://github.com/sadkowsk/code-llama/assets/143565317/78775c6e-95df-4f97-9311-53f0a0033510">
 
-> "Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."[^2]
+> "Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."[^1]
 
 ### Architecture
 ```
@@ -72,4 +72,3 @@ ollama run codellama
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 
 [^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
-[^2]: Citation
