@@ -68,9 +68,22 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 <img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
 
 ### Results
+
+**_Evaluation Benchmarking_**
+
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
 > _"Table 2: Code Llama pass@ scores on HumanEval and MBPP. The pass@1 scores of our models are computed with greedy decoding. The pass@10 and pass@100 scores are computed with nucleus sampling with p=0.95 and temperature 0.8 following our findings from Figure 6. Models are evaluated in zero-shot on Human Eval and 3-shot on MBPP. The instruct models are trained to be safe and aligned from the base Code Llama models. Results for other models as provided by Li et al. (2023) (code-cushman-001, StarCoder), OpenAI (2023) (GPT-3.5, GPT-4), and Chowdhery et al. (2022); Anil et al. (2023) (PaLM)."_[^1]
+
+**_Multilingual Evaluation_**
+
+**_Long Context Evaluations_**
+
+**_Infilling Evaluations_**
+
+**_Instruction Fine-Tuning_**
+
+**_Python Code Generation_**
 
 ### Critique
 * Limited analysis of tradeoffs between generality and code specialization
