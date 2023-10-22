@@ -40,7 +40,7 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
 ### Architecture
-The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above to view as a PDF.
+The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
 
 Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See Llama 2 Article[^3] and Llama 1 Article[^4] above.
 
@@ -72,7 +72,7 @@ Given Code Llama extends from Llama 2 and the original Llama LLM, further specif
 * Broader assessment of long context benefits needed
 
 ## 2. Code Llama Demonstration
-The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) (stored above) offers a separate demonstration of the foundational Code Llama 7B model's ability to _______.
+The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) (above repository) offers a separate demonstration of the foundational Code Llama 7B model's ability to _______.
 
 ## 3. Code Llama Quick Start
 For Mac users wishing to run Code Llama locally with VS Code:
