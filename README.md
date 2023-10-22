@@ -40,9 +40,12 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
 ### Architecture
-The pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above to view this pseudocode as a PDF.
+The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above to view as a PDF.
 
-Please read with caution; this pseudocode is not by the original Code Llama authors and may include errors.
+Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See Llama 2 Article[^3] and Llama 1 Article[^4] above.
+
+> [!WARNING]
+> This pseudocode was not produced by the original Code Llama authors. Use caution when using it to interpret Code Llama's architecture as it may include inaccuracies.
 
 <img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
 
@@ -96,5 +99,7 @@ ollama run codellama
 * Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 
-[^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, Aug. 2023, Accessed: Oct. 17, 2023. [Online]. Available: https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/
+[^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code.” arXiv, Aug. 25, 2023. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2308.12950
 [^2]: M. Phuong and M. Hutter, “Formal Algorithms for Transformers.” arXiv, Jul. 19, 2022. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2207.09238
+[^3]: H. Touvron et al., “Llama 2: Open Foundation and Fine-Tuned Chat Models.” arXiv, Jul. 19, 2023. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2307.09288
+[^4]: H. Touvron et al., “LLaMA: Open and Efficient Foundation Language Models.” arXiv, Feb. 27, 2023. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2302.13971
