@@ -92,5 +92,5 @@ ollama run codellama
 * Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 
-[^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, p. 47, Aug. 2023.
+[^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, Aug. 2023, Accessed: Oct. 17, 2023. [Online]. Available: https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/
 [^2]: M. Phuong and M. Hutter, “Formal Algorithms for Transformers.” arXiv, Jul. 19, 2022. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2207.09238
