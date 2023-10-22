@@ -68,7 +68,7 @@ The pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transf
 The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) (also above) offers a separate demonstration of the foundational Code Llama 7B model's ability to ______.
 
 ## 3. Code Llama Quick Start
-For Mac users trying to run Code Llama locally on VS Code:
+For Mac users wishing to run Code Llama locally with VS Code:
 1. Download Ollama: [jmorganca / ollama](https://github.com/jmorganca/ollama)
 2. Run through LangChain...?
 3. Begin Jupyter Notebook file with code block:
