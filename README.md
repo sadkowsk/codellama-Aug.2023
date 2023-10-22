@@ -30,11 +30,6 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 | **Maximum Context Length** | 100k tokens 🔥 | 100k tokens 🔥 | 100k tokens 🔥 |
 
 ### Approach
-* Fine-tune Llama 2 foundation model on code data
-* Add infilling objective for 7B and 13B models
-* Long context fine-tuning to handle 100k tokens
-* Release Code Llama base and Python/Instruct variants
-
 <img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
 
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
