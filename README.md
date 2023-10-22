@@ -58,7 +58,7 @@ The [facebook research / code llama model card](https://github.com/facebookresea
 
 > _"Code Llama and its variants are autoregressive language models using optimized transformer architectures. Code Llama 7B and 13B additionally support infilling text generation. All models were fine-tuned with up to 16K tokens, and support up to 100K tokens at inference time."_
 
-However, Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] enables a clearer illustration of the foundational Code Llama model architecture in algorithmic pseudocode. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
+Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] offers notation to more clearly illustrate the foundational Code Llama model architecture in algorithmic pseudocode. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
 
 Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See "Llama 2 Article"[^3] and "Llama 1 Article"[^4] above.
 
