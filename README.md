@@ -11,7 +11,7 @@ B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, 
 
 ## 1. Article Overview
 
-_tl;dr: The article demonstrates how the generalist LLM Llama 2 was specialized for code, handling new modalities like auto-complete infilling, and improving user-friendliness and social behavior._
+> _tl;dr: The article demonstrates how the generalist LLM Llama 2 was specialized for code, handling new modalities like auto-complete infilling, and improving user-friendliness and social behavior._
 
 ### Problem
 Code-specialized LLMs show better performance in code generation than general-purpose LLMs. However, code specialization also limits models maximum context lengths and neglects their potential for code infilling.
