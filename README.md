@@ -46,10 +46,8 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 - 7B, 13B, 34B Code Llama-Python models separately train on an additional 100B Python code-heavy dataset.
 
 **_D. Long Context Fine-Tuning_**
-- Uses 16,384 token sequences
-- Uses modified positional encodings
-- Handle 100K token contexts
-- Reason about full files/repositories
+- All models' rotary positional encodings (RoPE) are modified to handle longer sequences of contextual code while retaining performance on shorter ones, then undergoing long-context fine-tuning on 16,384 token sequences.
+- Enables models to handle repository-level input contexts up to 100,000 tokens, far surpassing Llama 2's 4,096 token limit.
 
 **_E. Instruction Fine-Tuning_**
 - Improve safety and helpfulness
@@ -60,7 +58,7 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 ### Architecture
 The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
 
-Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See Llama 2 Article[^3] and Llama 1 Article[^4] above.
+Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See "Llama 2 Article"[^3] and "Llama 1 Article"[^4] above.
 
 > [!WARNING]
 > This pseudocode was not produced by the original Code Llama authors. Use caution when using it to interpret Code Llama's architecture as it may include inaccuracies.
