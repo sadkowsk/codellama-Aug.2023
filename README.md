@@ -40,6 +40,8 @@ Code Llama specializes the general foundation Llama 2 model for code tasks by pr
 ### Architecture
 The pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above to view this pseudocode as a PDF.
 
+Please read with caution; this pseudocode is not by the original Code Llama authors and may include errors.
+
 <img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
 
 ### Results
