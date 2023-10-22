@@ -65,7 +65,7 @@ The pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transf
 * Broader assessment of long context benefits needed
 
 ## 2. Code Llama Demonstration
-[Demonstration.ipynb](Demonstration.ipynb)
+The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) above offers a separate demonstration of the foundational Code Llama 7B model's ability to ______.
 
 ## 3. Code Llama Quick Start
 For Mac users trying to run Code Llama locally on VS Code:
