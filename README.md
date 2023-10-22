@@ -32,37 +32,37 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 ### Approach
 The following subsections reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
 
-**Dataset**
+<img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
+
+> _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
+
+**_Dataset_**
 -	Code Llama models are initialized with the pretrained weights of Llama 2, then train on a domain-specific dataset of 500 billion tokens, 85% from code data (mainly open-source GitHub repos), 8% natural language about code, 7% general natural language data.
 -	Using both code and natural language helps Code Llama retain strong language understanding capabilities.
 -	The code dataset provides a strong starting point, and the model improves rapidly even though Llama 2 was already trained on 80B tokens of code.
 
-**Infilling**
+**_Infilling_**
 -	Code infilling predicts a missing piece of code given its surrounding context. It goes a step beyond autoregressive training, the primary LLM training method for next-token prediction given previous tokens.
 -	Applications include code completion at the cursor’s position in code IDEs, type inference, and generation of in-code documentation (e.g., docstrings).
 -	Infilling training involves masking random spans of text and predicting the masked portion from the surrounding context, enabling models to fill in missing code.
 -	Infilling training is applied to the 7B and 13B Code Llama models. It comes at a small cost to generation performance but enables applications like auto complete.
 
-**Long Context Fine-Tuning**
+**_Long Context Fine-Tuning_**
 -	Code Llama models are fine-tuned to handle input contexts up to 100,000 tokens, far longer than the 4,096 token limit of Llama 2.
 -	This allows reasoning about entire files or repositories instead of small snippets.
 -	Fine-tuning modifies the rotary positional encodings (RoPE) to handle longer sequences of contextual code while retaining performance on shorter ones.
 
-**Instruction Fine-Tuning**
+**_Instruction Fine-Tuning_**
 -	Code Llama - Instruct variants are fine-tuned using human instructions and self-generated code examples with tests to improve safety and helpfulness.
 -	The human instructions are drawn from those used to train Llama 2.
 -	The self-generated data uses Code Llama to produce solutions and Llama 2 to generate corresponding tests.
 -	The aim in fine-tuning on human instructions and generated prompts is to improve model safety, helpfulness, task performance.
 
-**Training Details**
+**_Training Details_**
 -	Models are optimized with AdamW using learning rates tuned for each model size. Batch sizes range from 1M to 4M tokens.
 -	Infilling uses a 90% masking rate during training.
 -	Long context fine-tuning uses 16,384 token sequences and modified positional encodings.
 -	Instruction fine-tuning uses a smaller batch size and learning rate optimized for safety.
-
-<img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
-
-> _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
 ### Architecture
 The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
