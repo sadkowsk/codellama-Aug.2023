@@ -50,10 +50,8 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 - Enables models to handle repository-level inputs of 100k tokens, far surpassing Llama 2's 4,096 token limit.
 
 **_E. Instruction Fine-Tuning_**
-- Improve safety and helpfulness
-- Human instructions and generated code tests
-- Aim is better performance on tasks
-- Uses smaller batches (less than 16k for LCFT) optimized for safety
+- Code Llama and Code Llama-Instruct models are further fine-tuned using human instructions and Llama 2-generated code tests in sequence batches smaller than in long context fine-tuning.
+- Improves models' bias and toxicity safety, common-sense helpfulness, and overall task performance.
 
 ### Architecture
 The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
