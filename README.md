@@ -36,7 +36,7 @@ The following subsections A-E. reflect the Aug. 2023 article’s Section 2, “C
 
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_A. Dataset_**
+**_A. Dataset_**
 - Train on 500B tokens, 85% code, 8% language about code, 7% general language
 - Retains language abilities while improving code skills  
 
