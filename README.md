@@ -47,7 +47,7 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 
 **_D. Long Context Fine-Tuning_**
 - All models' rotary positional encodings are modified to handle longer sequences of code while retaining performance on shorter ones, and then undergo long-context fine-tuning on 16,384 token sequences.
-- Enables models to handle repository-level input contexts of 100k tokens, far surpassing Llama 2's 4,096 token limit.
+- Enables models to handle repository-level inputs of 100k tokens, far surpassing Llama 2's 4,096 token limit.
 
 **_E. Instruction Fine-Tuning_**
 - Improve safety and helpfulness
