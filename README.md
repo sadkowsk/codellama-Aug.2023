@@ -46,8 +46,8 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 - 7B, 13B, 34B Code Llama-Python models separately train on an additional 100B Python code-heavy dataset.
 
 **_D. Long Context Fine-Tuning_**
-- All models' rotary positional encodings (RoPE) are modified to handle longer sequences of contextual code while retaining performance on shorter ones, then undergoing long-context fine-tuning on 16,384 token sequences.
-- Enables models to handle repository-level input contexts up to 100,000 tokens, far surpassing Llama 2's 4,096 token limit.
+- All models' rotary positional encodings are modified to handle longer sequences of contextual code while retaining performance on shorter ones, and then undergo long-context fine-tuning on 16,384 token sequences.
+- Enables models to handle repository-level input contexts of 100,000 tokens, far surpassing Llama 2's 4,096 token limit.
 
 **_E. Instruction Fine-Tuning_**
 - Improve safety and helpfulness
