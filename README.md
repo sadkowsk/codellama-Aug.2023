@@ -7,23 +7,27 @@ B. Rozière et al., “Code Llama: Open Foundation Models for Code,” Meta AI, 
 > [!NOTE]
 > **Focus Q&A**
 > 1. _ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?_
-> 2. _After long context fine-tuning, what maximum context lengths can Llama 2 and Code Llama support?_
+> 2. _After long context fine-tuning of Llama 2, what maximum context length can Code Llama support?_
 
 ## 1. Article Overview
 
-_tl;dr: The paper demonstrates methods to adapt a generalist LLM to specialized domains like code, handling new modalities like infilling, and improving social behavior._
+_tl;dr: The article demonstrates how the generalist LLM Llama 2 was specialized for code, handling new modalities like auto-complete infilling, and improving user-friendliness and social behavior._
 
 ### Problem
-Code generation is a common application of large language models (LLMs), and code-specialized models like Codex and AlphaCode show better code performance than general LLMs like GPT-3. However, the capabilities of these code-specialized models are impacted by their limited context sizes and lack of infilling.
+Code generation is a common application of LLMs, and code-specialized LLMs show better code performance. However, code specialization also limits these models' maximum context lengths and neglects their potential for code infilling.
 
 ### Question
-Can an open, general LLM be specialized for code while adding new abilities like long context and infilling?
+Can an open-foundation LLM be specialized for code while adding new abilities like long context and infilling?
 
 ### Context
-Fine-tuned on the Llama 2 foundation LLM, in Aug. 2023 Meta AI released three Code Llama variant models that specialize in code:
-* Code Llama: general-purpose code
-* Code Llama-Python: Python code
-* Code Llama-Instruct: fine-tuned for human instructions
+Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinct models that specialize in code generation. Based on the open-foundation LLM Llama 2, the Code Llama models underwent multiple additional stages of code training and long context and instruction fine-tuning.
+
+| *Code Llama Family Breakdown*  | Code Llama  | Code Llama—Instruct  | Code Llama—Python  |
+| ------------- | :---: | :---: | :---: |
+| **Domain Specialization** | General-purpose code | Safe/helpful instructions for code | Python-specific code |
+| **Parameter Variants** | 7B, 13B, 34B | 7B, 13B, 34B | 7B, 13B, 34B |
+| **Infilling Capable** | 7B✅ 13B✅ 34B❌ | 7B✅ 13B✅ 34B❌ | 7B❌ 13B❌ 34B❌ |
+| **Maximum Context Length** | 100k tokens 🔥 | 100k tokens 🔥 | 100k tokens 🔥 |
 
 Code Llama specializes the general foundation Llama 2 model for code tasks by pretraining on code data. The variants further improve Python specificity and safety/helpfulness.
 
