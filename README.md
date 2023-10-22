@@ -59,7 +59,7 @@ The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithm
 Given Code Llama extends from Llama 2 and the original Llama LLM, further specification of the Code Llama architecture could be possible through the earlier models' publications. See "Llama 2 Article"[^3] and "Llama 1 Article"[^4] above.
 
 > [!WARNING]
-> This pseudocode was not produced by the original Code Llama authors. Use caution when using it to interpret Code Llama's architecture as it may include inaccuracies.
+> This pseudocode was not produced by the original Code Llama authors and may include inaccuracies. Use caution when interpreting the true Code Llama architecture.
 
 <img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
 
