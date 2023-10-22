@@ -30,7 +30,7 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 | **Maximum Context Length** | 100k tokens 🔥 | 100k tokens 🔥 | 100k tokens 🔥 |
 
 ### Approach
-The following subsections A-D. loosely reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
+The following subsections _A-D_ loosely reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
 
 <img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
 
