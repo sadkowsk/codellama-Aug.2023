@@ -60,7 +60,7 @@ The [facebook research / code llama model card](https://github.com/facebookresea
 
 Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] offers notation to further illustrate the foundational Code Llama model architecture in algorithmic pseudocode. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
 
-Given Code Llama extends from Llama 2 and the original Llama LLM, it is worth noting that additional specification of the Code Llama architecture could be possible through the earlier models' publications. See "Llama 2 Article"[^3] and "Llama 1 Article"[^4] above.
+Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth noting that additional specification of the Code Llama architecture could be possible through the earlier models' publications. See "Llama 2 Article"[^3] and "Llama 1 Article"[^4] above.
 
 > [!WARNING]
 > This pseudocode was not produced by the original Code Llama authors and may include inaccuracies. Use caution when interpreting the true Code Llama architecture.
