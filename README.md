@@ -41,7 +41,7 @@ The following subsections A-D. loosely reflect the Aug. 2023 article’s Section
 - All models' hyperparameters, such as learning rates, are proportional to their parameter sizes.
 
 **_B. Dataset Training_**
-- All models train on a 500B token domain-specific dataset (85% open-source GitHub code, 8% natural language about code, 7% general natural language), building upon Llama 2's earlier training on 80B code tokens.
+- All models train on a 500B token domain-specific dataset (85% open-source GitHub code; 8% natural language about code; 7% general natural language), building on Llama 2's earlier training on 80B code tokens.
 - 7B and 13B Code Llama and Code Llama-Instruct models also undergo infilling code training, using a 90% random token masking rate to predict missing code from surrounding context and enable applications like auto-complete.
 
 **_D. Long Context Fine-Tuning_**
