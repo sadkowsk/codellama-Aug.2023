@@ -42,7 +42,7 @@ The pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transf
 
 Please read with caution; this pseudocode is not by the original Code Llama authors and may include errors.
 
-<img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="856" alt="Pseudocode" src="https://github.com/sadkowsk/code-llama/assets/143565317/f10a56af-45bf-4024-80a3-d3bce1efa99d">
 
 ### Results
 * Code Llama exceeds Llama 2 on MBPP/HumanEval/MultiPL-E
