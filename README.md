@@ -36,29 +36,29 @@ The following subsections reflect the Aug. 2023 article’s Section 2, “Code L
 
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
-**_Dataset_**
+**_A. Dataset_**
 -	Code Llama models are initialized with the pretrained weights of Llama 2, then train on a domain-specific dataset of 500 billion tokens, 85% from code data (mainly open-source GitHub repos), 8% natural language about code, 7% general natural language data.
 -	Using both code and natural language helps Code Llama retain strong language understanding capabilities.
 -	The code dataset provides a strong starting point, and the model improves rapidly even though Llama 2 was already trained on 80B tokens of code.
 
-**_Infilling_**
+**_B. Infilling_**
 -	Code infilling predicts a missing piece of code given its surrounding context. It goes a step beyond autoregressive training, the primary LLM training method for next-token prediction given previous tokens.
 -	Applications include code completion at the cursor’s position in code IDEs, type inference, and generation of in-code documentation (e.g., docstrings).
 -	Infilling training involves masking random spans of text and predicting the masked portion from the surrounding context, enabling models to fill in missing code.
 -	Infilling training is applied to the 7B and 13B Code Llama models. It comes at a small cost to generation performance but enables applications like auto complete.
 
-**_Long Context Fine-Tuning_**
+**_C. Long Context Fine-Tuning_**
 -	Code Llama models are fine-tuned to handle input contexts up to 100,000 tokens, far longer than the 4,096 token limit of Llama 2.
 -	This allows reasoning about entire files or repositories instead of small snippets.
 -	Fine-tuning modifies the rotary positional encodings (RoPE) to handle longer sequences of contextual code while retaining performance on shorter ones.
 
-**_Instruction Fine-Tuning_**
+**_D. Instruction Fine-Tuning_**
 -	Code Llama - Instruct variants are fine-tuned using human instructions and self-generated code examples with tests to improve safety and helpfulness.
 -	The human instructions are drawn from those used to train Llama 2.
 -	The self-generated data uses Code Llama to produce solutions and Llama 2 to generate corresponding tests.
 -	The aim in fine-tuning on human instructions and generated prompts is to improve model safety, helpfulness, task performance.
 
-**_Training Details_**
+**_E. Training Details_**
 -	Models are optimized with AdamW using learning rates tuned for each model size. Batch sizes range from 1M to 4M tokens.
 -	Infilling uses a 90% masking rate during training.
 -	Long context fine-tuning uses 16,384 token sequences and modified positional encodings.
