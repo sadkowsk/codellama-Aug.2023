@@ -30,37 +30,31 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 | **Maximum Context Length** | 100k tokens 🔥 | 100k tokens 🔥 | 100k tokens 🔥 |
 
 ### Approach
-The following subsections A-E. reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
+The following subsections A-D. loosely reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
 
 <img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
 
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
-**_A. Dataset_**
-- Train on 500B tokens, 85% code, 8% language about code, 7% general language
-- Retains language abilities while improving code skills  
+**_A. Initialization_**
+- All Code Llama models are initialized using pretrained weights of Llama 2.
+- All models' hyperparameters, such as learning rates, are proportional to their parameter sizes.
 
-**_B. Infilling_**
-- Predicts missing code from surrounding context
-- Enables applications like auto-complete
-- Trains by masking random spans to predict
-- Added to 7B and 13B models
+**_B. Dataset Training_**
+- All models train on a 500B token domain-specific dataset (85% open-source GitHub code, 8% natural language about code, 7% general natural language), building upon Llama 2's earlier training on 80B code tokens.
+- 7B and 13B Code Llama and Code Llama-Instruct models also undergo infilling code training, using a 90% random token masking rate to predict missing code from surrounding context and enable applications like auto-complete.
 
-**_C. Long Context Fine-Tuning_**
-- Handle 100K token contexts 
+**_D. Long Context Fine-Tuning_**
+- Uses 16,384 token sequences
+- Uses modified positional encodings
+- Handle 100K token contexts
 - Reason about full files/repositories
-- Modifies positional encodings 
 
-**_D. Instruction Fine-Tuning_**
+**_E. Instruction Fine-Tuning_**
 - Improve safety and helpfulness
 - Human instructions and generated code tests
 - Aim is better performance on tasks
-
-**_E. Training Details_**
-- Tuned hyperparameters per model size 
-- Infilling: 90% masking
-- Long context: 16K sequences
-- Instructions: optimized for safety
+- Uses smaller batches (less than 16k for LCFT) optimized for safety
 
 ### Architecture
 The algorithmic pseudocode below follows Phuong's and Hutter's "Formal Algorithms for Transformers"[^2] to illustrate the architecture of the foundational Code Llama model. [Claude.ai](https://claude.ai/login) was used to compare both articles "Formal Algorithms for Transformers" and "Code Llama: Open Foundation Models for Code" to generate this pseudocode. See above repository to view as a PDF.
