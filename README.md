@@ -90,7 +90,11 @@ The following _Table 2_ and _Figure 3_ from the Aug. 2023 article illustrate Cod
 * Broader assessment of long context benefits needed
 
 ## 2. Code Llama Demonstration
-The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) (above repository) offers a separate demonstration of the foundational Code Llama 7B model's ability to _______.
+Figure 16 below shows several prompts and responses during a user interaction with Code Llama-Instruct. [Demonstration.ipynb](Demonstration.ipynb) (above repository) offers a separate (albeit limited) demonstration of the foundational Code Llama 7B model running locally.
+
+<img width="877" alt="Figure 16" src="https://github.com/sadkowsk/code-llama/assets/143565317/30d65b88-2819-4e1e-a931-af6c3fcd313c">
+
+> _"Figure 16: Example of standard python bugs found and explained by Code Llama - Instruct."_
 
 ## 3. Code Llama Quick Start
 For Mac users wishing to run Code Llama locally with VS Code, download Ollama from [jmorganca / ollama](https://github.com/jmorganca/ollama) and follow the contained how-to. Happy coding!
