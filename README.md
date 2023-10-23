@@ -75,15 +75,25 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 
 > _"Table 2: Code Llama pass@ scores on HumanEval and MBPP. The pass@1 scores of our models are computed with greedy decoding. The pass@10 and pass@100 scores are computed with nucleus sampling with p=0.95 and temperature 0.8 following our findings from Figure 6. Models are evaluated in zero-shot on Human Eval and 3-shot on MBPP. The instruct models are trained to be safe and aligned from the base Code Llama models. Results for other models as provided by Li et al. (2023) (code-cushman-001, StarCoder), OpenAI (2023) (GPT-3.5, GPT-4), and Chowdhery et al. (2022); Anil et al. (2023) (PaLM)."_[^1]
 
-**_Multilingual Evaluation:_** Even Code Llama 7B outperforms larger general models like CodeGen-Multi and StarCoder.
+**_Multilingual Evaluation:_**
 
-**_Long Context Evaluations:_** Code Llama models handle contexts over 100K tokens with stable perplexity.
+- Even Code Llama 7B outperforms larger general models like CodeGen-Multi and StarCoder.
 
-**_Infilling Evaluations:_** Infilling training successfully provides middle-out generation ability with minimal cost to autoregressive performance.
+**_Long Context Evaluations:_**
 
-**_Instruction Fine-Tuning:_** Instruction fine-tuning significantly enhances safety and helpfulness metrics, albeit with some drop in raw coding scores.
+- Code Llama models handle contexts over 100K tokens with stable perplexity.
 
-**_Python Code Generation:_** Specializing Llama 2 for code leads to big gains - Code Llama 7B matches Llama 2 70B on Python tasks.
+**_Infilling Evaluations:_**
+
+- Infilling training successfully provides middle-out generation ability with minimal cost to autoregressive performance.
+
+**_Instruction Fine-Tuning:_**
+
+- Instruction fine-tuning significantly enhances safety and helpfulness metrics, albeit with some drop in raw coding scores.
+
+**_Python Code Generation:_**
+
+- Specializing Llama 2 for code leads to big gains - Code Llama 7B matches Llama 2 70B on Python tasks.
 
 ### Critique
 * Limited analysis of tradeoffs between generality and code specialization
