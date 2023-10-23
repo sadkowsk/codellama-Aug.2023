@@ -23,7 +23,7 @@ Can an open-foundation LLM be specialized for code while adding new abilities li
 Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinct models that specialize in code generation. Based on the open-foundation LLM Llama 2, the Code Llama models underwent multiple additional stages of code training and long context and instruction fine-tuning.
 
 | *Code Llama Family Breakdown*  | Code Llama  | Code Llama—Instruct  | Code Llama—Python  |
-| ------------- | :---: | :---: | :---: |
+| ---: | :---: | :---: | :---: |
 | **Domain Specialization** | General-purpose code | Human instructions for code | Python-specific code |
 | **Parameter Variants** | 7B, 13B, 34B | 7B, 13B, 34B | 7B, 13B, 34B |
 | **Infilling Capable** | 7B✅ 13B✅ 34B❌ | 7B✅ 13B✅ 34B❌ | 7B❌ 13B❌ 34B❌ |
