@@ -32,7 +32,7 @@ Code Llama, released by Meta AI in Aug. 2023, includes a family of three distinc
 ### Approach
 The following subsections _A-D_ loosely reflect the Aug. 2023 article’s Section 2, “Code Llama: Specializing Llama 2 for code,”[^1] explaining how the three Code Llama variants are trained for their differing sizes and specializations. Overall, the training process involves consideration of model performance, flexibility, and safety.
 
-<img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/4f84da13-4a5a-4d15-8977-64306672b889">
+<img width="1336" alt="Figure 2" src="https://github.com/sadkowsk/codellama-Aug.2023/assets/143565317/0624631e-6e28-404d-95f7-7cc3e9a24538">
 
 > _"Figure 2: The Code Llama specialization pipeline. The different stages of fine-tuning annotated with the number of tokens seen during training. Infilling-capable models are marked with the ⇄ symbol."_[^1]
 
