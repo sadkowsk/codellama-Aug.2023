@@ -93,22 +93,8 @@ The following _Table 2_ and _Figure 3_ from the Aug. 2023 article illustrate Cod
 The screenshot below demonstrates _______. [Demonstration.ipynb](Demonstration.ipynb) (above repository) offers a separate demonstration of the foundational Code Llama 7B model's ability to _______.
 
 ## 3. Code Llama Quick Start
-For Mac users wishing to run Code Llama locally with VS Code:
-1. Download Ollama: [jmorganca / ollama](https://github.com/jmorganca/ollama)
-2. Run through LangChain...?
-3. Begin Jupyter Notebook file with code block:
-```
-from langchain.llms import Ollama
-from langchain.callbacks.manager import CallbackManager
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler                                  
-llm = Ollama(model="codellama", 
-             callback_manager = CallbackManager([StreamingStdOutCallbackHandler()]))
-```
-4. In Terminal, input:
-```
-ollama run codellama
-```
-5. Happy coding!
+For Mac users wishing to run Code Llama locally with VS Code, download Ollama from [jmorganca / ollama](https://github.com/jmorganca/ollama) and follow the contained how-to. Happy coding!
+
 ## 4. External Links
 * GitHub > [facebookresearch / codellama](https://github.com/facebookresearch/codellama)
 * GitHub > [facebook research / llama2](https://github.com/facebookresearch/llama)
