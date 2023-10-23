@@ -69,9 +69,9 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 
 ### Results
 
-Overall, each of the three Code Llama models exceed the coding performance of Llama 2; Code Llama 7B performs even better than larger general models like CodeGen-Multi and StarCoder in multilingual evaluations, and the Code Llama-Python variants especially set a new SOTA on HumanEval and MBPP benchmarks. Infilling training for Code Llama and Code Llama-Instruct is also successful in enabling middle-out generation without significantly compromising autoregressive performance. For Code Llama-Instruct, fine-tuning with instructions enhances safety and helpfulness metrics, although there is a slight decrease in raw coding scores. Despite all these achievements, it is understandable that while the largest 34B Code Llama model variants tend to have greater capacity and perform better, they are also more computationally expensive to train and deploy with higher latency.
+Overall, each of the three Code Llama models exceed the coding performance of Llama 2; Code Llama 7B outperforms larger general models like CodeGen-Multi and StarCoder in multilingual evaluations, and the Code Llama-Python variants set a new SOTA on HumanEval and MBPP benchmarks. Infilling training for Code Llama and Code Llama-Instruct also successfully enables middle-out generation without significantly compromising autoregressive performance. For Code Llama-Instruct, fine-tuning with instructions enhances safety and helpfulness metrics, although with a slight decrease in raw coding scores. Despite all these achievements, it is understandable that while the largest 34B Code Llama model variants offer the greater capacity and performance, they are also more computationally expensive to train and deploy with higher latency.
 
-The following Table 2 and Figure 3 illustrate the benchmarking and multilingual achievements of the Code Llama models:
+The following Table 2 and Figure 3 from the Aug. 2023 article illustrate the benchmarking and multilingual achievements of the Code Llama models:
 
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
