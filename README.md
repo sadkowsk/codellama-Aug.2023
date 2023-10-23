@@ -69,7 +69,9 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 
 ### Results
 
-The findings from the study show that Code Llama 7B performs better than larger general models like CodeGen-Multi and StarCoder in multilingual evaluations. Additionally, Code Llama models demonstrate the ability to handle contexts with over 100,000 tokens while maintaining stable perplexity. Infilling training is successful in enabling middle-out generation without significantly compromising autoregressive performance. Fine-tuning with instructions enhances safety and helpfulness metrics, although there is a slight decrease in raw coding scores. Moreover, specializing Llama 2 for code generation leads to significant improvements, with Code Llama 7B matching Llama 2 70B in Python coding tasks.
+Overall, each of the three Code Llama models exceed the coding performance of Llama 2; Code Llama 7B performs even better than larger general models like CodeGen-Multi and StarCoder in multilingual evaluations, and the Code Llama-Python variants especially set a new SOTA on HumanEval and MBPP benchmarks. Infilling training for Code Llama and Code Llama-Instruct is also successful in enabling middle-out generation without significantly compromising autoregressive performance. For Code Llama-Instruct, fine-tuning with instructions enhances safety and helpfulness metrics, although there is a slight decrease in raw coding scores. Despite all these achievements, it is understandable that while the largest 34B Code Llama model variants tend to have greater capacity and perform better, they are also more computationally expensive to train and deploy with higher latency.
+
+The following Table 2 and Figure 3 illustrate the benchmarking and multilingual achievements of the Code Llama models:
 
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
