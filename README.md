@@ -103,6 +103,11 @@ For Mac users wishing to run Code Llama locally with VS Code, download Ollama fr
 * Meta AI > ["Code Llama: Open Foundation Models for Code"](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)
 * Meta AI > ["Llama 2: Open Foundation and Fine-Tuned Chat Models"](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 
+> [!NOTE]
+> **Focus Q&A**
+> 1. _ELI5: What are Code Llama, Code Llama-Python, and Code Llama-Instruct?_
+> 2. _After long context fine-tuning of Llama 2, what maximum context length can Code Llama support?_
+
 [^1]: B. Rozière et al., “Code Llama: Open Foundation Models for Code.” arXiv, Aug. 25, 2023. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2308.12950
 [^2]: M. Phuong and M. Hutter, “Formal Algorithms for Transformers.” arXiv, Jul. 19, 2022. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2207.09238
 [^3]: H. Touvron et al., “Llama 2: Open Foundation and Fine-Tuned Chat Models.” arXiv, Jul. 19, 2023. Accessed: Oct. 22, 2023. [Online]. Available: http://arxiv.org/abs/2307.09288
