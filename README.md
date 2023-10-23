@@ -69,7 +69,7 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 
 ### Results
 
-**_Evaluation Benchmarking_**
+The findings from the study show that Code Llama 7B performs better than larger general models like CodeGen-Multi and StarCoder in multilingual evaluations. Additionally, Code Llama models demonstrate the ability to handle contexts with over 100,000 tokens while maintaining stable perplexity. Infilling training is successful in enabling middle-out generation without significantly compromising autoregressive performance. Fine-tuning with instructions enhances safety and helpfulness metrics, although there is a slight decrease in raw coding scores. Moreover, specializing Llama 2 for code generation leads to significant improvements, with Code Llama 7B matching Llama 2 70B in Python coding tasks.
 
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
@@ -89,26 +89,6 @@ Given Code Llama extends from Llama 2 and the original Llama 1 LLM, it is worth 
 * There are strong positive correlations in model performance between languages like Python, Java, C++.
 * The correlations tend to increase for larger model sizes as their representation capacity grows.
 * This demonstrates Code Llama's versatility - it achieves multilingual ability without sacrificing Python performance.
-
-**_Multilingual Evaluation:_**
-
-- Even Code Llama 7B outperforms larger general models like CodeGen-Multi and StarCoder.
-
-**_Long Context Evaluations:_**
-
-- Code Llama models handle contexts over 100K tokens with stable perplexity.
-
-**_Infilling Evaluations:_**
-
-- Infilling training successfully provides middle-out generation ability with minimal cost to autoregressive performance.
-
-**_Instruction Fine-Tuning:_**
-
-- Instruction fine-tuning significantly enhances safety and helpfulness metrics, albeit with some drop in raw coding scores.
-
-**_Python Code Generation:_**
-
-- Specializing Llama 2 for code leads to big gains - Code Llama 7B matches Llama 2 70B on Python tasks.
 
 ### Critique
 * Limited analysis of tradeoffs between generality and code specialization
