@@ -90,7 +90,7 @@ The following _Table 2_ and _Figure 3_ from the Aug. 2023 article illustrate Cod
 * A broader assessment using diverse real-world tasks is needed to conclusively demonstrate the benefits of long context handling.
 
 ## 2. Code Llama Demonstration
-Figure 16 below shows several prompts and responses during a user interaction with Code Llama-Instruct. [Demonstration.ipynb](Demonstration.ipynb) (above repository) also offers a limited demonstration of the foundational Code Llama 7B model running locally.
+_Figure 16_ below shows several prompts and responses during a user interaction with Code Llama-Instruct. [Demonstration.ipynb](Demonstration.ipynb) (above repository) also offers a limited demonstration of the foundational Code Llama 7B model running locally.
 
 <img width="877" alt="Figure 16" src="https://github.com/sadkowsk/codellama-Aug.2023/assets/143565317/556d6575-fe1a-4e1a-9b55-13a55a0b2c7d">
 
