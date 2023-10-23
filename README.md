@@ -73,7 +73,7 @@ Overall, each of the three Code Llama models exceeds the coding performance of L
 
 Despite all these achievements, it is understandable that while the largest 34B Code Llama model variants offer the greater capacity and performance, they are also more computationally expensive to train and deploy with higher latency.
 
-The following Table 2 and Figure 3 from the Aug. 2023 article illustrate Code Llama's benchmarking and multilingual achievements:
+The following _Table 2_ and _Figure 3_ from the Aug. 2023 article illustrate Code Llama's benchmarking and multilingual achievements:
 
 <img width="736" alt="Table 2" src="https://github.com/sadkowsk/code-llama/assets/143565317/076ed2a6-53b1-42e2-873c-eecef37cb26b">
 
